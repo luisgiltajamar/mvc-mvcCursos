@@ -1,0 +1,16 @@
+﻿@model IEnumerable<CursosMVC.Models.Profesor>
+
+@{
+    Layout = null;
+ 
+}
+
+
+<select name="lista" multiple="multiple" size="5">
+    
+    @foreach (var item in Model)
+    {
+        <option value="@item.idProfesor">@item.nombre</option>
+    }
+    
+</select>

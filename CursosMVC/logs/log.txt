@@ -1,1 +1,1 @@
-En el controlador CursosMVC.Controllers.ProfesorController y la accion Index
+En el controlador CursosMVC.Controllers.ProfesorController y la accion IndexEn el controlador CursosMVC.Controllers.ProfesorController y la accion IndexEn el controlador CursosMVC.Controllers.ProfesorController y la accion IndexEn el controlador CursosMVC.Controllers.ProfesorController y la accion IndexEn el controlador CursosMVC.Controllers.ProfesorController y la accion IndexEn el controlador CursosMVC.Controllers.ProfesorController y la accion Index

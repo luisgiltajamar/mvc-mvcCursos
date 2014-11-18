@@ -1,12 +1,25 @@
 ﻿@model IEnumerable<CursosMVC.Models.Profesor>
+@{
+
+    var l = new List<String>()
+    {
+        "Uno", "Dos", "Tres", "Cuatro", "Cinco"
+    };
+    
+    
+}
 
 
 <h2>@ViewBag.Title</h2>
 <h3>@String.Format("Creado el dia {0:g}",ViewBag.Fecha)</h3>
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Detalles", "Details","Curso",new {id=1},
+    new{@class="active",style="color:red;text-decoration: none;"})
 </p>
 @*<a href="~/Profesor/accion"></a>*@
+
+@Html.Partial("_lista",l)
+@Html.Action("ListProfesores","AccionesComunes")
 <table class="table">
     <tr>
         <th>
